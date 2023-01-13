@@ -45,4 +45,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(8887, () => console.log('AI server started on http://localhost:8887'))
+app.listen(process.env.PORT, () => console.log('AI server started on http://localhost:8887'))
